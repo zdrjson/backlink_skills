@@ -1,0 +1,18 @@
+This directory vendors the `remove-ai-marks` skill and its cleaning service from:
+
+    https://github.com/guillaumemeyer/watermarks-remover
+    upstream commit d5563d2e129166cae737cc6ac604e75f5631c368
+    Licensed MIT — full text in LICENSE.upstream
+
+Contents and origin:
+
+    SKILL.md          upstream skills/remove-ai-marks/SKILL.md
+                      (service paths retargeted to the bundled copy; proxy
+                      caveat and this provenance note added)
+    references/       upstream skills/remove-ai-marks/references/ — verbatim
+    service/          upstream service/ — verbatim
+    start-service.sh  added here, replaces upstream's `make serve`
+    INSTALL.md        added here
+
+To update: re-copy `skills/remove-ai-marks/` and `service/` from upstream and
+re-apply the SKILL.md path edits listed above.
